@@ -31,9 +31,6 @@ class Calculator:
         self.window.resizable(0,0)
         self.window.title("Calculator")
         
-        self.icon = PhotoImage(file="icon.png")
-        self.window.iconphoto(True,self.icon)
-        
         self.tot_exp = ""
         self.cur_exp = "0"
         
