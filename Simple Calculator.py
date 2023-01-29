@@ -1,7 +1,9 @@
 import tkinter as tk
 import math
 from tkinter import *
+from ctypes import windll
 
+windll.shcore.SetProcessDpiAwareness(1)
 LARGE_FONT_STYLE = ("Arial", 40)
 SMALL_FONT_STYLE = ("Arial", 16)
 DIGIT_FONT_STYLE = ('Arial', 25, "bold")
